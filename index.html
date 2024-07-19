@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Be My Girlfriend?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hey Asuna,</h1>
+      <p>I've been meaning to ask you something really important.</p>
+      <p>
+        From Halimat's birthday picnic, I have always admired you. From the way
+        you smile, to the way you talk so passionately about the things you
+        love, to your lovely taste in anime, and to the way your beautiful mind
+        works—you are simply amazing.
+      </p>
+      <p>
+        I cherish every moment we spend together, and I want to make more
+        memories together.
+      </p>
+      <p>So, I have one question for you...</p>
+      <button id="reveal-button" onclick="revealQuestion()">
+        Click here to find out
+      </button>
+      <div id="question" class="hidden">
+        <h2>Will you be my girlfriend?</h2>
+        <button onclick="showResponse('yes')">Yes</button>
+        <button onclick="showResponse('no')">No</button>
+      </div>
+      <div id="response" class="hidden"></div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
